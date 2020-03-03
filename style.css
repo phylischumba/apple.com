@@ -202,7 +202,7 @@ footer a {
 .store-section {
   display: flex;
   width: 80%;
-  background: #6b6b6b;
+  background: linear-gradient(#4b4b4b, #7c7c7c 50%, #636363 50%, #3b3b3b 100%);
   margin: auto;
   height: 35px;
   border-radius: 5px;
@@ -214,6 +214,19 @@ footer a {
 .store-section-links {
   color: white;
   text-decoration: none;
+}
+
+.store-section-spans {
+  border-right: 1px  solid black;
+  width: 11%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.store-section-spans:hover {
+  background-color: #404040;
 }
 
 .store-section-search .fa-search {
@@ -232,15 +245,6 @@ footer a {
 .store-section-search input {
   border-radius: 10px;
   background-color: #6b6b6b;
-}
-
-.store-section-spans {
-  border-right: 1px  solid black;
-  width: 11%;
-  height: 100%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
 }
 
 .mid-section {
@@ -297,17 +301,14 @@ footer a {
   display: none;
 }
 
-.lower-section img {
-  width: 334px;
-  height: 200px;
+.lower-section {
+  display: flex;
 }
 
 .shop-info {
   display: flex;
   height: 40px;
   font-size: 12px;
-
-  /* color: #9F9B92; */
   justify-content: space-evenly;
   align-content: center;
 }
@@ -349,4 +350,33 @@ footer {
   display: flex;
   justify-content: flex-start;
   margin-left: 125px;
+}
+
+.lower-section div {
+  width: 334px;
+  height: 200px;
+}
+
+.background-image1 {
+  background-image: url('images/flex-item1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-image2 {
+  background-image: url('images/flex-item2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-image3 {
+  background-image: url('images/flex-item3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-image4 {
+  background-image: url('images/flex-item4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
