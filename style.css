@@ -245,6 +245,7 @@ footer a {
 .store-section-search input {
   border-radius: 10px;
   background-color: #6b6b6b;
+  width: 60%;
 }
 
 .mid-section {
@@ -355,6 +356,8 @@ footer {
 .lower-section div {
   width: 334px;
   height: 200px;
+  margin-right: 5px;
+  margin-top: 3px;
 }
 
 .background-image1 {
