@@ -8,7 +8,7 @@ An apple.com clone page as one of the Microverse Projects on the gradients and b
 * linter and stickler validations
 
 # Live Demo
-[Live Demo Link](https://rawcdn.githack.com/Phylis05/apple.com/61d34359a71a0aea7043152e0756450128ca0ee9/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Phylis05/apple.com/e5e752062307a37b6bf10538f4058cb2a47b28f9/index.html)
 
 ## Getting Started
 #### To get a local copy up and running follow these simple example steps.
